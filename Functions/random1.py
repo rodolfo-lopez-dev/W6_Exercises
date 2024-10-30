@@ -25,3 +25,12 @@ print("Give an example of a random", rand_choice)
 
 rand_choices = random.choices(fruits, k=2)
 print("Give an example of a random", rand_choices)
+
+# finding a sample from 1 to 3000 and selecting 3 numbers
+random_numbers = random.sample(range(1, 3000), 3)
+print("Give me a sample with random numbers from 1 to 3000:", random_numbers)
+
+# back to using fruits exercise, we'll shuffle the list 
+
+random.shuffle(fruits)
+print("Give me a shuffle of fruits:", fruits)
