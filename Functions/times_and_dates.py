@@ -28,4 +28,3 @@ print("90 days from today is:", ninety_d.strftime("%B %d, %Y"))
 # finding out when dinner time is 
 dinner_time = datetime.time(18,00)
 print("Be ready for dinner at:", dinner_time.strftime("%I:%M %p"))
-
