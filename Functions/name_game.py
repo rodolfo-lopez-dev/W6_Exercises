@@ -33,3 +33,5 @@ user_name = input("Enter a name for The Name Game song: ")
 # Result 
 for line in name_game(user_name):
     print(line)
+
+# the outputs for my name, and the following examples worked 
